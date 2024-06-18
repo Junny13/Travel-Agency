@@ -1,1 +1,4 @@
 # Travel-Agency
+The application we implemented is an android application for travel company data management. It is addressed to people who want to manage and edit the entries made in the system of travel companies.
+Initially, the application is divided into two categories, based on the data entered in the local database and those entered in a remote database.In the local database, all data related to the travel company, the tour and the tour package are stored, while in the remote database there are all data related to customers who have made a reservation in a travel agency.In addition, in addition to the possibility of adding data for customers and tours, the user of the application can delete and modify entries.
+Finally, the user is also given the option to view his entries, since they are added to a table, sorted according to what the user is looking for each time.
