@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:padding="16dp"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/taxidiotikografeio"
+        style="@style/TextAppearance.AppCompat.Title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:text="taxidiotiko grafeio"
+
+        />
+
+    <TextView
+        android:id="@+id/xwra"
+        style="@style/TextAppearance.AppCompat.SearchResult.Subtitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/taxidiotikografeio"
+        android:layout_marginLeft="30dp"
+        android:singleLine="true"
+        android:text="country" />
+
+    <TextView
+        android:id="@+id/date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/TextAppearance.AppCompat.SearchResult.Subtitle"
+        android:layout_below="@id/xwra"
+        android:layout_marginLeft="30dp"
+        android:singleLine="true"
+        android:text="hmerominia"
+        />
+
+    <TextView
+        android:id="@+id/price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/TextAppearance.AppCompat.SearchResult.Subtitle"
+        android:layout_below="@id/date"
+        android:layout_marginLeft="30dp"
+        android:singleLine="true"
+        android:text="timi"
+        />
+
+</RelativeLayout>

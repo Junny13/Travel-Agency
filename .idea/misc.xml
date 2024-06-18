@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/lenam/AndroidStudioProjects/HappyTraveler/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.136" />
+        <entry key="..\:/Users/lenam/AndroidStudioProjects/HappyTraveler/app/src/main/res/drawable/button.xml" value="0.252" />
+        <entry key="..\:/Users/lenam/AndroidStudioProjects/HappyTraveler/app/src/main/res/drawable/button1.xml" value="0.1205" />
+        <entry key="..\:/Users/lenam/AndroidStudioProjects/HappyTraveler/app/src/main/res/drawable/button3.xml" value="0.1205" />
+        <entry key="..\:/Users/lenam/AndroidStudioProjects/HappyTraveler/app/src/main/res/drawable/ic_launcher_background.xml" value="0.2115" />
+        <entry key="..\:/Users/lenam/AndroidStudioProjects/HappyTraveler/app/src/main/res/drawable/ic_menu_camera.xml" value="0.2095" />
+        <entry key="..\:/Users/lenam/AndroidStudioProjects/HappyTraveler/app/src/main/res/drawable/ic_menu_gallery.xml" value="0.2095" />
+        <entry key="..\:/Users/lenam/AndroidStudioProjects/HappyTraveler/app/src/main/res/drawable/ic_menu_slideshow.xml" value="0.2115" />
+        <entry key="..\:/Users/lenam/AndroidStudioProjects/HappyTraveler/app/src/main/res/drawable/side_nav_bar.xml" value="0.2095" />
+        <entry key="..\:/Users/lenam/AndroidStudioProjects/HappyTraveler/app/src/main/res/font/balsamiq_sans.xml" value="0.284375" />
+        <entry key="..\:/Users/lenam/AndroidStudioProjects/HappyTraveler/app/src/main/res/layout/activity_button_pressed.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/lenam/AndroidStudioProjects/HappyTraveler/app/src/main/res/layout/activity_button_pressed_ekdr.xml" value="0.25" />
+        <entry key="..\:/Users/lenam/AndroidStudioProjects/HappyTraveler/app/src/main/res/layout/activity_button_pressed_ekdr2.xml" value="0.23867753623188406" />
+        <entry key="..\:/Users/lenam/AndroidStudioProjects/HappyTraveler/app/src/main/res/layout/activity_button_pressed_pak_ekdr.xml" value="0.2" />
+        <entry key="..\:/Users/lenam/AndroidStudioProjects/HappyTraveler/app/src/main/res/layout/activity_button_pressed_pinakas.xml" value="0.2" />
+        <entry key="..\:/Users/lenam/AndroidStudioProjects/HappyTraveler/app/src/main/res/layout/activity_create.xml" value="0.25052083333333336" />
+        <entry key="..\:/Users/lenam/AndroidStudioProjects/HappyTraveler/app/src/main/res/layout/activity_ekdromh.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/lenam/AndroidStudioProjects/HappyTraveler/app/src/main/res/layout/activity_main_drawer.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/lenam/AndroidStudioProjects/HappyTraveler/app/src/main/res/layout/activity_new_open.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/lenam/AndroidStudioProjects/HappyTraveler/app/src/main/res/layout/activity_update_delete_ekdromi.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/lenam/AndroidStudioProjects/HappyTraveler/app/src/main/res/layout/activity_update_delete_pak_ek.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/lenam/AndroidStudioProjects/HappyTraveler/app/src/main/res/layout/activity_update_delete_taksid.xml" value="0.264" />
+        <entry key="..\:/Users/lenam/AndroidStudioProjects/HappyTraveler/app/src/main/res/layout/app_bar_main_drawer.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/lenam/AndroidStudioProjects/HappyTraveler/app/src/main/res/layout/content_main_drawer.xml" value="0.17708333333333334" />
+        <entry key="..\:/Users/lenam/AndroidStudioProjects/HappyTraveler/app/src/main/res/layout/fragment_blank.xml" value="0.22780797101449277" />
+        <entry key="..\:/Users/lenam/AndroidStudioProjects/HappyTraveler/app/src/main/res/layout/fragment_button_pressed.xml" value="0.18614130434782608" />
+        <entry key="..\:/Users/lenam/AndroidStudioProjects/HappyTraveler/app/src/main/res/layout/fragment_gallery.xml" value="0.1" />
+        <entry key="..\:/Users/lenam/AndroidStudioProjects/HappyTraveler/app/src/main/res/layout/fragment_home.xml" value="0.25" />
+        <entry key="..\:/Users/lenam/AndroidStudioProjects/HappyTraveler/app/src/main/res/layout/fragment_slideshow.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/lenam/AndroidStudioProjects/HappyTraveler/app/src/main/res/layout/fragment_update_delete.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/lenam/AndroidStudioProjects/HappyTraveler/app/src/main/res/layout/list_row.xml" value="0.2318840579710145" />
+        <entry key="..\:/Users/lenam/AndroidStudioProjects/HappyTraveler/app/src/main/res/layout/nav_header_main_drawer.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/lenam/AndroidStudioProjects/HappyTraveler/app/src/main/res/menu/activity_main_drawer_drawer.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/lenam/AndroidStudioProjects/HappyTraveler/app/src/main/res/menu/main_drawer.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/lenam/AndroidStudioProjects/HappyTraveler/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1745" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

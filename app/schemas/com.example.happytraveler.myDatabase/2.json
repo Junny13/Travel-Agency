@@ -1,0 +1,157 @@
+{
+  "formatVersion": 1,
+  "database": {
+    "version": 2,
+    "identityHash": "6d63343e45cf89fa030ca1b642f9430b",
+    "entities": [
+      {
+        "tableName": "PinakasTaksid",
+        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`T_ID` INTEGER NOT NULL, `NameTaks` TEXT, `AddressTaks` TEXT, PRIMARY KEY(`T_ID`))",
+        "fields": [
+          {
+            "fieldPath": "id",
+            "columnName": "T_ID",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "name",
+            "columnName": "NameTaks",
+            "affinity": "TEXT",
+            "notNull": false
+          },
+          {
+            "fieldPath": "address",
+            "columnName": "AddressTaks",
+            "affinity": "TEXT",
+            "notNull": false
+          }
+        ],
+        "primaryKey": {
+          "columnNames": [
+            "T_ID"
+          ],
+          "autoGenerate": false
+        },
+        "indices": [],
+        "foreignKeys": []
+      },
+      {
+        "tableName": "PinakasEkdr",
+        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`ekid` INTEGER NOT NULL, `poliek` TEXT, `xwraek` TEXT, `diarkeiaek` INTEGER NOT NULL, `eidosek` TEXT, PRIMARY KEY(`ekid`))",
+        "fields": [
+          {
+            "fieldPath": "id",
+            "columnName": "ekid",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "poli",
+            "columnName": "poliek",
+            "affinity": "TEXT",
+            "notNull": false
+          },
+          {
+            "fieldPath": "xwra",
+            "columnName": "xwraek",
+            "affinity": "TEXT",
+            "notNull": false
+          },
+          {
+            "fieldPath": "diarkeia",
+            "columnName": "diarkeiaek",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "eidos",
+            "columnName": "eidosek",
+            "affinity": "TEXT",
+            "notNull": false
+          }
+        ],
+        "primaryKey": {
+          "columnNames": [
+            "ekid"
+          ],
+          "autoGenerate": false
+        },
+        "indices": [],
+        "foreignKeys": []
+      },
+      {
+        "tableName": "PinakasPakEkdr",
+        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`idpakekdr` INTEGER NOT NULL, `idtaksid` INTEGER NOT NULL, `idekd` INTEGER NOT NULL, `datePaek` TEXT, `pricePaek` INTEGER NOT NULL, PRIMARY KEY(`idpakekdr`), FOREIGN KEY(`idtaksid`) REFERENCES `PinakasTaksid`(`T_ID`) ON UPDATE CASCADE ON DELETE CASCADE , FOREIGN KEY(`idekd`) REFERENCES `PinakasEkdr`(`ekid`) ON UPDATE CASCADE ON DELETE CASCADE )",
+        "fields": [
+          {
+            "fieldPath": "idpaketouek",
+            "columnName": "idpakekdr",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "idtaksid",
+            "columnName": "idtaksid",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "idekdr",
+            "columnName": "idekd",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "date",
+            "columnName": "datePaek",
+            "affinity": "TEXT",
+            "notNull": false
+          },
+          {
+            "fieldPath": "price",
+            "columnName": "pricePaek",
+            "affinity": "INTEGER",
+            "notNull": true
+          }
+        ],
+        "primaryKey": {
+          "columnNames": [
+            "idpakekdr"
+          ],
+          "autoGenerate": false
+        },
+        "indices": [],
+        "foreignKeys": [
+          {
+            "table": "PinakasTaksid",
+            "onDelete": "CASCADE",
+            "onUpdate": "CASCADE",
+            "columns": [
+              "idtaksid"
+            ],
+            "referencedColumns": [
+              "T_ID"
+            ]
+          },
+          {
+            "table": "PinakasEkdr",
+            "onDelete": "CASCADE",
+            "onUpdate": "CASCADE",
+            "columns": [
+              "idekd"
+            ],
+            "referencedColumns": [
+              "ekid"
+            ]
+          }
+        ]
+      }
+    ],
+    "views": [],
+    "setupQueries": [
+      "CREATE TABLE IF NOT EXISTS room_master_table (id INTEGER PRIMARY KEY,identity_hash TEXT)",
+      "INSERT OR REPLACE INTO room_master_table (id,identity_hash) VALUES(42, '6d63343e45cf89fa030ca1b642f9430b')"
+    ]
+  }
+}
