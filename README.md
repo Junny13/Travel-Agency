@@ -23,5 +23,8 @@ Finally, the user is also given the option to view his entries, since they are a
 αφού αυτές προσθέτονται σε έναν πίνακα, ταξινομημένο σύμφωνα με
 αυτό που ο χρήστης ψάχνει κάθε φορά.
 
-<img width="252" height="523" alt="image" src="https://github.com/user-attachments/assets/7e5b673c-93cd-45ed-8c44-4a3d147992d3" />
+<img width="252" height="523" alt="image" src="https://github.com/user-attachments/assets/7e5b673c-93cd-45ed-8c44-4a3d147992d3" /> 
+<img width="352" height="458" alt="image" src="https://github.com/user-attachments/assets/a5100cca-0ea1-4117-9ded-6348ed918fa5" />
+
+
 
